@@ -1,0 +1,201 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin:0;
+    background-color: #35424a;
+  }
+  
+  /*Global */
+  .container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  }
+  
+  .button_1{
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+  }
+  
+  /* Header **/
+  header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom: #e8491d 3px solid;
+  }
+  
+  header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float: left;
+  }
+  
+  header #branding h1{
+    margin: 0;
+  }
+  
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+  
+  header .heightlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+  }
+  
+  header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+  }
+  
+  /*Showcase */
+  #showcase{
+    min-height: 50px;
+    background:url("../img/showcase.jpg") no-repeat 0 -50px;
+    text-align: right;
+    color: #ffffff;
+  }
+  
+  #showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+  
+  #showcase p{
+    font-size: 20px;
+  }
+  
+  /*order */
+  #order {
+    padding: 15px;
+    color: #ffffff;
+  }
+  
+  #order h1{
+    float: left;
+  }
+  
+  #order form{
+    float: right;
+    margin-top: 15px;
+  }
+  
+  #order input[type="name"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+  
+  /*Boxes */
+  #boxes{
+    margin-top: 10px;
+  }
+  
+  #boxes .box{
+      color: #ffffff;
+    float:left;
+    text-align: center;
+    width: 20%;
+    padding: 0;
+  }
+  
+  #boxes .box img{
+    width: 150px;
+  }
+  
+  #ingredients h3{
+      color: #ffffff;
+  }
+
+  /*Procedures*/
+  #Procedures{
+      color: #ffffff;
+      text-align: center;
+  }
+
+  #Procedure .div{
+      float: right;
+  }
+
+  /*table*/
+  #table{
+      color: #ffffff;
+      float: right;
+width: 50%;
+margin-right: 0;
+margin-left: 0;
+  }
+  
+  /*sidebar */
+  aside#aside{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+  }
+  
+  aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+  }
+  
+  /*main-col */
+  article#main-col{
+      background: #ffffff;
+    float: left;
+    width: 65%;
+  }
+  
+  /*services */
+  ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+  }
+
+  footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+  }
+  
+  header{
+    padding-bottom: 20px;
+  }
+  
+  #showcase hi{
+    margin-top: 40px;
+  }
+  
+  #order button, .quote button{
+    display: block;
+    width: 100%;
+  }
+  
+  #order form input[type="email"], .quote input, .quote textarea{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  }
